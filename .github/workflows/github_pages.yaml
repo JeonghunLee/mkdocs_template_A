@@ -60,8 +60,10 @@ jobs:
             🚀 Release
             ------------------------------------------
             * **Project**: ${{ github.event.repository.name }}
-            * **Version**: ${{ github.ref_name }}            
-            * **Date**: ${{ github.event.head_commit.timestamp }}     
+            * **Version**: ${{ github.ref_name }}
+            * **Date**: ${{ github.event.head_commit.timestamp }}
+            * **Commit**: ${{ github.sha }}
+            * **CI Build Number**: ${{ github.run_number }}      
             
             <br/>
 
