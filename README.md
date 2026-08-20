@@ -109,6 +109,7 @@ pandoc --version
 <br/>
 
 * Step 2: Setup refrece.docx or pptx in Window
+Pandoc를 위해서 Reference.doc 와 pptx 생성  
 ```
 pandoc -o reference.docx --print-default-data-file reference.docx
 ```
@@ -144,6 +145,13 @@ word/numbering.xml
 ```
 pandoc .\docs\index.md `
   --slide-level=2 `
+  --resource-path=".;.\docs" `
+  -o .\output\index.pptx
+```
+```
+pandoc .\docs\index.md `
+  --slide-level=2 `
+  --reference-doc=.\docx\reference.pptx `
   --resource-path=".;.\docs" `
   -o .\output\index.pptx
 ```
