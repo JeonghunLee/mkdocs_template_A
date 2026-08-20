@@ -71,6 +71,7 @@ mkdocs build
     * **electron_package.ps1**
     * main.js 
     * package.json 
+        * **Check node.js packages in json** 
 
 <br/>
 
