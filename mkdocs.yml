@@ -1,21 +1,20 @@
-site_name: AI-driven CI/CT
-site_description: Test results and execution history
+site_name: Mkdocs Template based on Material 
+site_description: Mkdocs Template based on Material theme
+site_author: Jeonghun Lee
 docs_dir: docs
 
 #
-#  Repository information
+#  Github Repository information
 #  (주의: release 시 표시됨) 
-repo_url: https://github.com/JeonghunLee/AI-driven-CI-CT
-repo_name: JeonghunLee/AI-driven-CI-CT
+repo_url: https://github.com/JeonghunLee/mkdocs_template_A
+repo_name: JeonghunLee/mkdocs_template_A
 
+#
+#  Mkdocs Material theme configuration
+#
 nav:
   - Home: index.md
-  - TEST:
-    - Pytest: pytest.md
-    - Unittest: unittest.md
-  - TEST_RESULTS:
-    - Pytest: pytest_results.md
-    - Unittest: unittest_results.md
+
 
 
 plugins:
@@ -29,7 +28,9 @@ theme:
   name: material
   language: ko
   
+  #
   # My Site Logo and Favicon  
+  #
   logo: imgs/logo.jpg     # my logo
   favicon: imgs/logo.jpg  # my favicon  
 

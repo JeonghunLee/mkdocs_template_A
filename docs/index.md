@@ -1,4 +1,4 @@
-# Mkdocs_template_A
+# Mkdocs Template 
 
 <br/>
 
@@ -139,7 +139,7 @@ word/numbering.xml
 
 <br/>
 
-* Step 4: Convert markdown to pptx/docx by using reference.docx 
+* Step 4: Convert markdown to pptx/docx  
 ```
 pandoc .\docs\index.md `
   --slide-level=2 `

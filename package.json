@@ -1,7 +1,7 @@
 {
-  "name": "vscode_doc",
+  "name": "Mkdocs_template_A",            // Change this to your own unique package name
   "version": "1.0.0",
-  "description": "MkDocs Electron Viewer",
+  "description": "MkDocs Electron Viewer", // Change this to your own description
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,9 +11,10 @@
     "electron": ">=43.2.0",
     "electron-builder": ">=26.0.0"
   },
+
   "build": {
-    "appId": "com.jeonghun.infojetson",
-    "productName": "vscode docs viewer",
+    "appId": "com.jeonghun.mkdocs_template_A", // Change this to your own unique app ID
+    "productName": "MkDocs Viewer",           // Change this to your desired product name
     "directories": {
       "output": "dist"
     },
