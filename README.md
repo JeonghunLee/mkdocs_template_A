@@ -181,4 +181,6 @@ npx -p @mermaid-js/mermaid-cli mmdc `
 
 <br/>
 
-Settings -> Pages 
+* Github 
+    * Settings -> Pages 
+    * need tags 
