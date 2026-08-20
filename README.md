@@ -176,3 +176,9 @@ npx -p @mermaid-js/mermaid-cli mmdc `
 ```
 
 <br/>
+
+## Github 
+
+<br/>
+
+Settings -> Pages 
