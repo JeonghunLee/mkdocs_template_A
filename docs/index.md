@@ -75,7 +75,7 @@ mkdocs build
 <br/>
 
 * Setting   
-**electron_package.ps1**
+**electron_package.ps1**   
 
 ```
 cp main.js site/
