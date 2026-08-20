@@ -182,5 +182,5 @@ npx -p @mermaid-js/mermaid-cli mmdc `
 <br/>
 
 * Github 
-    * Settings -> Pages 
-    * need tags 
+    * Settings -> Pages ()
+    * need tags and then make html by using Github Action 
