@@ -1,7 +1,7 @@
 {
-  "name": "Mkdocs_template_A",            // Change this to your own unique package name
-  "version": "1.0.0",
-  "description": "MkDocs Electron Viewer", // Change this to your own description
+  "name": "Mkdocs-Template",            
+  "version": "1.0.2",
+  "description": "MkDocs Electron Viewer", 
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -13,8 +13,8 @@
   },
 
   "build": {
-    "appId": "com.jeonghun.mkdocs_template_A", // Change this to your own unique app ID
-    "productName": "MkDocs Viewer",           // Change this to your desired product name
+    "appId": "com.jeonghun.mkdocs_template_A", 
+    "productName": "MkDocs Template Viewer",           
     "directories": {
       "output": "dist"
     },
