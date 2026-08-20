@@ -176,11 +176,32 @@ pandoc `
 
 All Pandoc need Converting 
 
-* Convert markdown to svg
+```
+npx --help
+```
+
+* Check package.json     
+주석을 사용하면 안됨  
+
+<br/>
+
+* Convert Markdown(mmd) to svg
 ```
 npx -p @mermaid-js/mermaid-cli mmdc `
   -i .\docx\mmd\test.md `
   -o .\docx\imgs\test.svg `
+  -b transparent
+```
+```
+npx -p @mermaid-js/mermaid-cli mmdc `
+  -i .\docx\mmd\test_general.md `
+  -o .\docx\imgs\test_general.svg `
+  -b transparent
+```
+```
+npx -p @mermaid-js/mermaid-cli mmdc `
+  -i .\docx\mmd\test_handdrawn.md `
+  -o .\docx\imgs\test_handdrawn.svg `
   -b transparent
 ```
 
